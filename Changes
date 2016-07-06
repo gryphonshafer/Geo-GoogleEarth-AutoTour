@@ -1,4 +1,7 @@
 Revision history for Geo::GoogleEarth::AutoTour
 
 {{$NEXT}}
+        - Fixing missing files in distribution
+
+1.01      Wed Jul  6  8:50:25 PDT 2016
         - First version, released on an unsuspecting world.
