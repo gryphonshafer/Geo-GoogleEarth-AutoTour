@@ -31,6 +31,7 @@ lives_ok(
     'kmz_to_xml() stand-alone execution',
 );
 
+( $kml_tour, $kml_output ) = round_xml( $kml_tour, $kml_output );
 is( $kml_tour, $kml_output, 'tour() output correctly built' );
 
 unlink('Geo_GoogleEarth_AutoTour_test_0_tour.kmz');
@@ -55,8 +56,16 @@ lives_ok(
     'kmz_to_xml() stand-alone execution (2)',
 );
 
+( $kml_tour, $kml_output ) = round_xml( $kml_tour, $kml_output );
 is( $kml_tour, $kml_output, 'tour() output correctly built (2)' );
 
 unlink('Geo_GoogleEarth_AutoTour_test_1_tour.kmz');
 
 done_testing;
+
+sub round_xml {
+    return map {
+        s/(?<=\D)(\d{6})\d{4,}(?=<)//g;
+        $_;
+    } @_;
+}

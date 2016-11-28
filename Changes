@@ -1,6 +1,7 @@
 Revision history for Geo::GoogleEarth::AutoTour
 
 {{$NEXT}}
+        - Round long-precision floats in test output to pass failing tests due to floating point inaccuracies
 
 1.03      2016-07-06 08:54:53-07:00 America/Los_Angeles
         - Fixing missing files in distribution
