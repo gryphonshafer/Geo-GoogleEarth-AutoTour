@@ -10,7 +10,7 @@ use IO::Uncompress::Unzip qw( unzip $UnzipError );
 use IO::Compress::Zip qw(zip $ZipError);
 use XML::LibXML;
 use Date::Parse 'str2time';
-use Math::Trig qw( deg2rad rad2deg great_circle_distance great_circle_bearing );
+use Math::Trig 1.23 qw( deg2rad rad2deg great_circle_distance great_circle_bearing );
 
 # VERSION
 

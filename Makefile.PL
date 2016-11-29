@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
     "Exporter" => 0,
     "IO::Compress::Zip" => 0,
     "IO::Uncompress::Unzip" => 0,
-    "Math::Trig" => 0,
+    "Math::Trig" => "1.23",
     "XML::LibXML" => 0,
     "base" => 0,
     "strict" => 0,
@@ -37,7 +37,7 @@ my %WriteMakefileArgs = (
     "Test::Most" => 0,
     "blib" => "1.01"
   },
-  "VERSION" => "1.04",
+  "VERSION" => "1.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -54,7 +54,7 @@ my %FallbackPrereqs = (
   "IO::Handle" => 0,
   "IO::Uncompress::Unzip" => 0,
   "IPC::Open3" => 0,
-  "Math::Trig" => 0,
+  "Math::Trig" => "1.23",
   "Test::More" => 0,
   "Test::Most" => 0,
   "XML::LibXML" => 0,

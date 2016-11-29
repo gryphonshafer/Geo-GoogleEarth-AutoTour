@@ -4,7 +4,7 @@ Geo::GoogleEarth::AutoTour - Generate Google Earth Camera Tours from Tracks and 
 
 # VERSION
 
-version 1.04
+version 1.05
 
 [![Build Status](https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour.svg)](https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/Geo-GoogleEarth-AutoTour/badge.png)](https://coveralls.io/r/gryphonshafer/Geo-GoogleEarth-AutoTour)

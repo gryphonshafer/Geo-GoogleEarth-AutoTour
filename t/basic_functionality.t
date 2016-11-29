@@ -65,7 +65,7 @@ done_testing;
 
 sub round_xml {
     return map {
-        s/(?<=\D)(\d{6})\d{4,}(?=<)//g;
+        s/(?<=\D)(\d{6})\d{4,}(?=<)/$1/g;
         $_;
     } @_;
 }
