@@ -1,6 +1,8 @@
 Revision history for Geo::GoogleEarth::AutoTour
 
 {{$NEXT}}
+
+1.05      2016-11-29 13:32:33-08:00 America/Los_Angeles
         - Set Math::Trig dependency to require >= 1.23
         - Fixed rounding code in test to add back a bit more precision
 
