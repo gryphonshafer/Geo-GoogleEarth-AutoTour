@@ -1,10 +1,12 @@
 package Geo::GoogleEarth::AutoTour;
 # ABSTRACT: Generate Google Earth Camera Tours from Tracks and Paths
 
-use 5.006_001;
+use 5.012;
 use strict;
 use warnings;
+
 use base 'Exporter';
+
 use Carp 'croak';
 use IO::Uncompress::Unzip qw( unzip $UnzipError );
 use IO::Compress::Zip qw(zip $ZipError);
