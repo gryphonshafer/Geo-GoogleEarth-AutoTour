@@ -1,6 +1,7 @@
 Revision history for Geo::GoogleEarth::AutoTour
 
 {{$NEXT}}
+        - Adding Perl versions to test; annual general update for 2018
 
 1.05      2016-11-29 13:32:33-08:00 America/Los_Angeles
         - Set Math::Trig dependency to require >= 1.23
