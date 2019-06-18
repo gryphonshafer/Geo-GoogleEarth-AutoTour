@@ -1,6 +1,8 @@
 Revision history for Geo::GoogleEarth::AutoTour
 
 {{$NEXT}}
+
+1.06      2019-06-18 15:25:34-07:00 America/Los_Angeles
         - Reduce rounding precision to allow for ld/non-ld passing
         - Adding Perl versions to test; annual general update for 2019
         - Adding Perl versions to test; annual general update for 2018
