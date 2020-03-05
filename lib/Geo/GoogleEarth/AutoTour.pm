@@ -494,9 +494,7 @@ You can look for additional information at:
 
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour>
-* L<CPAN|http://search.cpan.org/dist/Geo-GoogleEarth-AutoTour>
 * L<MetaCPAN|https://metacpan.org/pod/Geo::GoogleEarth::AutoTour>
-* L<AnnoCPAN|http://annocpan.org/dist/Geo-GoogleEarth-AutoTour>
 * L<Travis CI|https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour>
 * L<Coveralls|https://coveralls.io/r/gryphonshafer/Geo-GoogleEarth-AutoTour>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Geo-GoogleEarth-AutoTour>
