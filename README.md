@@ -4,10 +4,10 @@ Geo::GoogleEarth::AutoTour - Generate Google Earth Camera Tours from Tracks and 
 
 # VERSION
 
-version 1.06
+version 1.07
 
-[![Build Status](https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour.svg)](https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Geo-GoogleEarth-AutoTour/badge.png)](https://coveralls.io/r/gryphonshafer/Geo-GoogleEarth-AutoTour)
+[![build](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/workflows/build/badge.svg)](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour)
 
 # SYNOPSIS
 
@@ -92,7 +92,7 @@ output.
 ## load\_kml
 
 This is a helper function. It takes KML XML as a string and returns an
-[XML::LibXML::XPathContext](https://metacpan.org/pod/XML::LibXML::XPathContext) object with the OpenGIS namespace (which is the
+[XML::LibXML::XPathContext](https://metacpan.org/pod/XML%3A%3ALibXML%3A%3AXPathContext) object with the OpenGIS namespace (which is the
 default XMLNS) set to "g".
 
     my $xc     = load_kml($kml_xml);
@@ -100,7 +100,7 @@ default XMLNS) set to "g".
 
 ## read\_path
 
-This function expects an [XML::LibXML::XPathContext](https://metacpan.org/pod/XML::LibXML::XPathContext) object built by
+This function expects an [XML::LibXML::XPathContext](https://metacpan.org/pod/XML%3A%3ALibXML%3A%3AXPathContext) object built by
 `load_kml` based on KML XML that contains a Path. It returns an arrayref of
 points suitable for use with the `build_tour` function.
 
@@ -108,7 +108,7 @@ points suitable for use with the `build_tour` function.
 
 ## gather\_points
 
-This function expects an [XML::LibXML::XPathContext](https://metacpan.org/pod/XML::LibXML::XPathContext) object built by
+This function expects an [XML::LibXML::XPathContext](https://metacpan.org/pod/XML%3A%3ALibXML%3A%3AXPathContext) object built by
 `load_kml()` based on KML XML that contains a Track. It returns an arrayref of
 points suitable for use with the `build_tour` function.
 
@@ -220,11 +220,9 @@ most cases.
 You can look for additional information at:
 
 - [GitHub](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour)
-- [CPAN](http://search.cpan.org/dist/Geo-GoogleEarth-AutoTour)
 - [MetaCPAN](https://metacpan.org/pod/Geo::GoogleEarth::AutoTour)
-- [AnnoCPAN](http://annocpan.org/dist/Geo-GoogleEarth-AutoTour)
-- [Travis CI](https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour)
-- [Coveralls](https://coveralls.io/r/gryphonshafer/Geo-GoogleEarth-AutoTour)
+- [GitHub Actions](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/actions)
+- [Codecov](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour)
 - [CPANTS](http://cpants.cpanauthors.org/dist/Geo-GoogleEarth-AutoTour)
 - [CPAN Testers](http://www.cpantesters.org/distro/G/Geo-GoogleEarth-AutoTour.html)
 
@@ -234,7 +232,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2018 by Gryphon Shafer.
+This software is copyright (c) 2021 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
