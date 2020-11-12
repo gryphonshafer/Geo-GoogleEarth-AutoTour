@@ -266,8 +266,8 @@ __END__
 =begin :badges
 
 =for markdown
-[![Build Status](https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour.svg)](https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Geo-GoogleEarth-AutoTour/badge.png)](https://coveralls.io/r/gryphonshafer/Geo-GoogleEarth-AutoTour)
+[![build](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/workflows/build/badge.svg)](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour)
 
 =end :badges
 
@@ -495,8 +495,8 @@ You can look for additional information at:
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour>
 * L<MetaCPAN|https://metacpan.org/pod/Geo::GoogleEarth::AutoTour>
-* L<Travis CI|https://travis-ci.org/gryphonshafer/Geo-GoogleEarth-AutoTour>
-* L<Coveralls|https://coveralls.io/r/gryphonshafer/Geo-GoogleEarth-AutoTour>
+* L<GitHub Actions|https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/actions>
+* L<Codecov|https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Geo-GoogleEarth-AutoTour>
 * L<CPAN Testers|http://www.cpantesters.org/distro/G/Geo-GoogleEarth-AutoTour.html>
 
