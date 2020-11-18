@@ -266,7 +266,7 @@ __END__
 =begin :badges
 
 =for markdown
-[![build](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/workflows/build/badge.svg)](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/actions?query=workflow%3Abuild)
+[![test](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/workflows/test/badge.svg)](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour)
 
 =end :badges
