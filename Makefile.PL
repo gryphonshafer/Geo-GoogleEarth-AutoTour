@@ -13,7 +13,7 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => 0
   },
   "DISTNAME" => "Geo-GoogleEarth-AutoTour",
-  "LICENSE" => "perl",
+  "LICENSE" => "artistic_2",
   "MIN_PERL_VERSION" => "5.012",
   "NAME" => "Geo::GoogleEarth::AutoTour",
   "PREREQ_PM" => {
