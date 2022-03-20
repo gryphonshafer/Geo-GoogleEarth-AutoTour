@@ -4,7 +4,7 @@ Geo::GoogleEarth::AutoTour - Generate Google Earth Camera Tours from Tracks and 
 
 # VERSION
 
-version 1.07
+version 1.08
 
 [![test](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/workflows/test/badge.svg)](https://github.com/gryphonshafer/Geo-GoogleEarth-AutoTour/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Geo-GoogleEarth-AutoTour)
@@ -232,7 +232,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2016-2021 by Gryphon Shafer.
+This software is Copyright (c) 2016-2050 by Gryphon Shafer.
 
 This is free software, licensed under:
 
