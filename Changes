@@ -1,6 +1,7 @@
 Revision history for Geo::GoogleEarth::AutoTour
 
 {{$NEXT}}
+        - Change author email address (sadly)
 
 1.10      2025-06-13 10:26:05-07:00 America/Los_Angeles
         - Add security policy as per CPANSec recommendation
